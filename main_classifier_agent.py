@@ -3,6 +3,13 @@
 Main Classification Agent
 Classifies comments as factual/neutral vs opinionated/polarized
 Runs toxicity/PII guardrails using Gemini
+
+📚 PROMPT ENGINEERING GUIDE: See prompts/main_classifier_prompts.md
+   - Classification criteria and examples
+   - Sentiment analysis guidelines  
+   - Toxicity scoring methodology
+   - Quality assurance standards
+   - Integration with other agents
 """
 
 import json

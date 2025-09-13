@@ -3,6 +3,13 @@
 Bias Detection Agent
 On flagged comments, analyzes commenter profiles for bias likelihood
 Computes lightweight bias scores using Gemini
+
+📚 PROMPT ENGINEERING GUIDE: See prompts/bias_detection_prompts.md
+   - Profile bio analysis techniques
+   - Commercial bias detection patterns
+   - Astroturfing identification methods
+   - Coordinated attack recognition
+   - Account credibility assessment
 """
 
 import json

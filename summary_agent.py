@@ -3,6 +3,13 @@
 Summary Agent
 Incrementally updates per-post "controlled sentiment" state
 Maintains running stats and bullet summaries using Gemini
+
+📚 PROMPT ENGINEERING GUIDE: See prompts/summary_agent_prompts.md
+   - Dual input processing (clean + bias-analyzed comments)
+   - Authentic engagement vs manipulation analysis
+   - Credibility scoring methodology
+   - Actionable insight generation
+   - Quality assurance guidelines
 """
 
 import json

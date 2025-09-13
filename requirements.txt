@@ -1,3 +1,24 @@
+# Social Media Analysis - Full Dependencies
+
+# Core framework
 mcp-agent
 python-dotenv
 google-generativeai
+
+# Streamlit frontend with full features
+streamlit>=1.28.0
+plotly>=5.17.0
+pandas>=2.1.0
+
+# Twitter/X scraping
+twscrape
+nest-asyncio
+
+# Data processing
+asyncio-throttle>=1.0.0
+aiohttp>=3.8.0
+
+# Development tools (optional)
+pytest>=7.4.0
+black>=23.9.0
+flake8>=6.1.0

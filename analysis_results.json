@@ -1,24 +1,32 @@
 {
-  "post_id": "beauty_product_review_2024",
-  "timestamp": "2025-09-13T13:13:59.245489",
+  "post_id": "streamlit_analysis_20250913_143828",
+  "timestamp": "2025-09-13T14:38:32.917774",
   "summary": {
-    "total_comments": 6,
+    "total_comments": 3,
     "sentiment_distribution": {
       "positive": 3,
-      "negative": 2,
-      "neutral": 1
+      "negative": 0,
+      "neutral": 0
     },
-    "average_toxicity": 0.20000000000000004,
+    "average_toxicity": 0.06666666666666667,
     "summary_bullets": [
-      "Slight increase in negative sentiment detected (33%) compared to previous period.",
-      "Overall sentiment remains predominantly positive (50%), but requires monitoring.",
-      "Average toxicity level (0.200) indicates a relatively low level of abusive or harmful content.",
-      "Further analysis needed to understand drivers of negative sentiment and potential toxicity triggers."
+      "Overwhelmingly positive sentiment detected in all 3 recent comments.",
+      "Average toxicity score remains low at 0.067, indicating minimal abusive or hateful language.",
+      "The small sample size (3 comments) limits the scope of conclusive trend analysis; further data is needed for robust insights."
     ]
   },
   "classifications": [
     {
-      "comment_id": "comment_1",
+      "comment_id": "demo_1",
+      "classification": "factual",
+      "sentiment": "positive",
+      "toxicity_score": 0.1,
+      "has_pii": false,
+      "flagged": false,
+      "risk_factors": []
+    },
+    {
+      "comment_id": "demo_2",
       "classification": "opinionated",
       "sentiment": "positive",
       "toxicity_score": 0.0,
@@ -27,76 +35,23 @@
       "risk_factors": []
     },
     {
-      "comment_id": "comment_2",
-      "classification": "factual",
-      "sentiment": "positive",
-      "toxicity_score": 0.1,
-      "has_pii": false,
-      "flagged": false,
-      "risk_factors": []
-    },
-    {
-      "comment_id": "comment_3",
-      "classification": "opinionated",
-      "sentiment": "negative",
-      "toxicity_score": 0.8,
-      "has_pii": false,
-      "flagged": true,
-      "risk_factors": [
-        "strong_negative_sentiment",
-        "potential_defamation"
-      ]
-    },
-    {
-      "comment_id": "comment_4",
+      "comment_id": "demo_3",
       "classification": "opinionated",
       "sentiment": "positive",
       "toxicity_score": 0.1,
       "has_pii": false,
       "flagged": false,
       "risk_factors": []
-    },
-    {
-      "comment_id": "comment_5",
-      "classification": "opinionated",
-      "sentiment": "negative",
-      "toxicity_score": 0.1,
-      "has_pii": false,
-      "flagged": false,
-      "risk_factors": []
-    },
-    {
-      "comment_id": "comment_6",
-      "classification": "factual",
-      "sentiment": "neutral",
-      "toxicity_score": 0.1,
-      "has_pii": false,
-      "flagged": false,
-      "risk_factors": []
     }
   ],
-  "bias_analyses": [
-    {
-      "comment_id": "comment_3",
-      "author_id": "truth_teller_2024",
-      "bias_score": 0.8,
-      "bias_signals": {
-        "brand_affinity": 0.0,
-        "promotional_content": 0.1,
-        "account_credibility": 0.6
-      },
-      "risk_level": "medium",
-      "explanation": "The comment uses strong accusatory language ('FRAUD', 'LIES') lacking specific evidence, suggesting a potential negative bias against the creator. The author's bio and username, 'Exposing fake influencers,' indicates a pre-existing negative stance toward a specific group, while the high engagement metrics (likes, replies, retweets) suggest the comment resonates with a segment of the audience.  However, there's no direct brand promotion."
-    }
-  ],
+  "bias_analyses": [],
   "risk_assessment": {
-    "overall_risk": "medium",
-    "flagged_comments": 1,
-    "high_bias_users": 1,
-    "average_toxicity": 0.20000000000000004,
+    "overall_risk": "low",
+    "flagged_comments": 0,
+    "high_bias_users": 0,
+    "average_toxicity": 0.06666666666666667,
     "recommendations": [
-      "Monitor comment trends closely",
-      "Consider additional bias detection on flagged users"
+      "\u2705 Low risk - continue normal monitoring"
     ]
   }
 }
