@@ -1,0 +1,11 @@
+[project]
+name = "oss4aiseptember"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "aiohttp>=3.12.15",
+    "mcp-agent>=0.1.20",
+    "pydantic>=2.11.9",
+]
