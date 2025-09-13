@@ -6,6 +6,8 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "aiohttp>=3.12.15",
+    "google-generativeai>=0.8.5",
     "mcp-agent>=0.1.20",
     "pydantic>=2.11.9",
+    "python-dotenv>=1.1.1",
 ]

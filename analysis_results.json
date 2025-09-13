@@ -1,0 +1,102 @@
+{
+  "post_id": "beauty_product_review_2024",
+  "timestamp": "2025-09-13T13:13:59.245489",
+  "summary": {
+    "total_comments": 6,
+    "sentiment_distribution": {
+      "positive": 3,
+      "negative": 2,
+      "neutral": 1
+    },
+    "average_toxicity": 0.20000000000000004,
+    "summary_bullets": [
+      "Slight increase in negative sentiment detected (33%) compared to previous period.",
+      "Overall sentiment remains predominantly positive (50%), but requires monitoring.",
+      "Average toxicity level (0.200) indicates a relatively low level of abusive or harmful content.",
+      "Further analysis needed to understand drivers of negative sentiment and potential toxicity triggers."
+    ]
+  },
+  "classifications": [
+    {
+      "comment_id": "comment_1",
+      "classification": "opinionated",
+      "sentiment": "positive",
+      "toxicity_score": 0.0,
+      "has_pii": false,
+      "flagged": false,
+      "risk_factors": []
+    },
+    {
+      "comment_id": "comment_2",
+      "classification": "factual",
+      "sentiment": "positive",
+      "toxicity_score": 0.1,
+      "has_pii": false,
+      "flagged": false,
+      "risk_factors": []
+    },
+    {
+      "comment_id": "comment_3",
+      "classification": "opinionated",
+      "sentiment": "negative",
+      "toxicity_score": 0.8,
+      "has_pii": false,
+      "flagged": true,
+      "risk_factors": [
+        "strong_negative_sentiment",
+        "potential_defamation"
+      ]
+    },
+    {
+      "comment_id": "comment_4",
+      "classification": "opinionated",
+      "sentiment": "positive",
+      "toxicity_score": 0.1,
+      "has_pii": false,
+      "flagged": false,
+      "risk_factors": []
+    },
+    {
+      "comment_id": "comment_5",
+      "classification": "opinionated",
+      "sentiment": "negative",
+      "toxicity_score": 0.1,
+      "has_pii": false,
+      "flagged": false,
+      "risk_factors": []
+    },
+    {
+      "comment_id": "comment_6",
+      "classification": "factual",
+      "sentiment": "neutral",
+      "toxicity_score": 0.1,
+      "has_pii": false,
+      "flagged": false,
+      "risk_factors": []
+    }
+  ],
+  "bias_analyses": [
+    {
+      "comment_id": "comment_3",
+      "author_id": "truth_teller_2024",
+      "bias_score": 0.8,
+      "bias_signals": {
+        "brand_affinity": 0.0,
+        "promotional_content": 0.1,
+        "account_credibility": 0.6
+      },
+      "risk_level": "medium",
+      "explanation": "The comment uses strong accusatory language ('FRAUD', 'LIES') lacking specific evidence, suggesting a potential negative bias against the creator. The author's bio and username, 'Exposing fake influencers,' indicates a pre-existing negative stance toward a specific group, while the high engagement metrics (likes, replies, retweets) suggest the comment resonates with a segment of the audience.  However, there's no direct brand promotion."
+    }
+  ],
+  "risk_assessment": {
+    "overall_risk": "medium",
+    "flagged_comments": 1,
+    "high_bias_users": 1,
+    "average_toxicity": 0.20000000000000004,
+    "recommendations": [
+      "Monitor comment trends closely",
+      "Consider additional bias detection on flagged users"
+    ]
+  }
+}
